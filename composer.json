@@ -1,0 +1,22 @@
+{
+    "name": "damo/funghi-farm-api",
+    "description": "api funghi",
+    "require": {
+        "composer/composer": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Damo\\FunghiFarmApi\\": "src/",
+            "Controller\\": "private/controller",
+            "Model\\": "private/model",
+            "View\\": "private/view",
+            "Router\\": "private"
+        }
+    },
+    "authors": [
+        {
+            "name": "Damian Mediavilla",
+            "email": "damianmediavilla@hotmail.com"
+        }
+    ]
+}
