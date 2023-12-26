@@ -15,6 +15,7 @@ $router = new Router();
 
 //rutas publicas para frontend
 $router->get('/', [WebController::class, 'index']);
+$router->get('/reporte', [WebController::class, 'reporte']);
 // $router->post('/login', [ControllerPaginaPublica::class, 'login']);
 // $router->get('/login', [ControllerPaginaPublica::class, 'login']);
 // $router->get('/logout', [ControllerPaginaPublica::class, 'logout']);
