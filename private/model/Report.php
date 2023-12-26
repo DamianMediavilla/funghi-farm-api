@@ -18,6 +18,6 @@ class Report extends ActiveRecord{
         $this->temperature = $args['temperature'] ?? '';
         $this->humidity = $args['humidity'] ?? '';
         $this->msg = $args['msg'] ?? '';
-        $this->time_signal = $args['time_signal'] ?? '';
+        $this->time_signal = date("Y-m-d H:i:s");
     }
 }

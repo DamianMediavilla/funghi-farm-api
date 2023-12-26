@@ -51,6 +51,7 @@ class ApiController{
         
         if($report->guardar()){
             echo "true";
+            echo time();
         }else{
             echo "false";
         }
@@ -64,7 +65,7 @@ class ApiController{
   
     //     $encuesta->refresh($datos);
     //     if($encuesta->actualizar()){
-    //         echo true;
+    //         echo true;ñ
     //     }else{
     //         echo false;
     //     }
